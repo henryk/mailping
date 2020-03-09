@@ -21,6 +21,7 @@ setup(
     packages=find_packages(exclude=["contrib", "docs", "tests"]),
     install_requires=[
         "dynaconf[all]",
+        "python-dotenv",
         "imapclient",
         "pysigset",
     ],
